@@ -104,10 +104,10 @@ export default function DeleteAccountPage() {
                 아래 이메일로 가입 시 사용한 Google 계정 이메일을 보내주시면, 서버에 저장된 모든 데이터를 30일 이내에 완전히 삭제합니다.
               </p>
               <a
-                href="mailto:support@recsync.app?subject=RecSync 계정 삭제 요청"
+                href="mailto:ma88082@gmail.com?subject=RecSync 계정 삭제 요청"
                 className="inline-flex items-center gap-2 bg-[var(--accent-primary)] text-white font-semibold px-6 py-3 rounded-full hover:bg-[var(--accent-cta-hover)] transition-colors duration-200 cursor-pointer"
               >
-                support@recsync.app 으로 요청하기
+                ma88082@gmail.com 으로 요청하기
               </a>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function DeleteAccountPage() {
         </div>
         <div className="border-t border-gray-700 pt-6 text-center">
           <p className="text-xs text-gray-500">
-            &copy; 2025 RecSync. All rights reserved.
+            &copy; 2026 RecSync. All rights reserved.
           </p>
         </div>
       </footer>

@@ -364,7 +364,7 @@ export default function Home() {
         </div>
         <div className="border-t border-gray-700 pt-6 text-center">
           <p className="text-xs text-gray-500">
-            &copy; 2025 RecSync. All rights reserved.
+            &copy; 2026 RecSync. All rights reserved.
           </p>
         </div>
       </footer>
