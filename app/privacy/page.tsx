@@ -1,5 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "개인정보처리방침",
+  description:
+    "RecSync 개인정보처리방침 - 수집하는 개인정보, 이용 목적, 오디오 파일 처리 방침, 보안 조치 안내",
+  alternates: {
+    canonical: "https://recsync-landing.vercel.app/privacy",
+  },
+};
 
 const sections = [
   {

@@ -120,9 +120,29 @@ function ScrollReveal({
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "RecSync",
+  operatingSystem: "Android",
+  applicationCategory: "UtilitiesApplication",
+  description:
+    "통화가 끝나자마자 녹음 파일을 자동 감지하고, Google Drive 백업 + 음성-텍스트 변환까지 한번에.",
+  url: "https://play.google.com/store/apps/details?id=com.recsync.app",
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "KRW",
+  },
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Header */}
       <header className="sticky top-0 z-50 flex items-center justify-between px-6 md:px-16 lg:px-20 py-4 bg-[var(--bg-primary)]/95 backdrop-blur-sm border-b border-black/5">
         <a href="/" className="flex items-center gap-2.5 cursor-pointer">
