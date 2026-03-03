@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 import { useScrollReveal } from "./hooks/useScrollReveal";
 
-const PLAY_STORE_URL = "#";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.recsync.app";
 
 const steps = [
   {
